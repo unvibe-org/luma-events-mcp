@@ -4,7 +4,7 @@
 
 A Luma Calendar MCP server exposing event, guest, and ticket operations as tools for AI assistants.
 
-[![Release](https://github.com/bettervibe-org/luma-events-mcp/actions/workflows/release.yml/badge.svg)](https://github.com/bettervibe-org/luma-events-mcp/actions/workflows/release.yml)
+[![Release](https://github.com/unvibe-org/luma-events-mcp/actions/workflows/release.yml/badge.svg)](https://github.com/unvibe-org/luma-events-mcp/actions/workflows/release.yml)
 [![npm version](https://badge.fury.io/js/luma-events-mcp.svg)](https://www.npmjs.com/package/luma-events-mcp)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-purple.svg)](https://modelcontextprotocol.io)

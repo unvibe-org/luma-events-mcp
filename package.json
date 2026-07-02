@@ -1,6 +1,6 @@
 {
 	"name": "luma-events-mcp",
-	"mcpName": "io.github.bettervibe-org/luma-events-mcp",
+	"mcpName": "io.github.unvibe-org/luma-events-mcp",
 	"description": "A Luma Calendar MCP server exposing event, guest, and ticket operations as tools for AI assistants.",
 	"version": "1.0.0",
 	"main": "dist/index.js",
@@ -31,12 +31,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/bettervibe-org/luma-events-mcp.git"
+		"url": "https://github.com/unvibe-org/luma-events-mcp.git"
 	},
 	"bugs": {
-		"url": "https://github.com/bettervibe-org/luma-events-mcp/issues"
+		"url": "https://github.com/unvibe-org/luma-events-mcp/issues"
 	},
-	"homepage": "https://github.com/bettervibe-org/luma-events-mcp#readme",
+	"homepage": "https://github.com/unvibe-org/luma-events-mcp#readme",
 	"author": "Dominik Grusemann",
 	"license": "MIT",
 	"engines": {

@@ -2,14 +2,14 @@
 
 ## Context
 
-Dominik subscribed to Luma Plus to get API access. No quality MCP server exists for the Luma Calendar API (the existing ones are Python, abandoned, or auto-generated slop). Building one serves double duty: operational tool for bettervibe workshops (replacing manual CSV exports for guest/invoice data) and marketing channel (first quality Luma MCP server, published under the bettervibe-org GitHub org).
+Dominik subscribed to Luma Plus to get API access. No quality MCP server exists for the Luma Calendar API (the existing ones are Python, abandoned, or auto-generated slop). Building one serves double duty: operational tool for unvibe workshops (replacing manual CSV exports for guest/invoice data) and marketing channel (first quality Luma MCP server, published under the unvibe-org GitHub org).
 
 The implementation follows the `caldav-mcp` reference repo exactly — same architecture, tooling, and conventions.
 
 ## Architecture
 
 ```
-luma-mcp/                          # New repo: github.com/bettervibe-org/luma-mcp
+luma-mcp/                          # New repo: github.com/unvibe-org/luma-mcp
 ├── src/
 │   ├── index.ts                   # Entry point: create client → test connection → register tools → stdio
 │   ├── index.test.ts
@@ -149,7 +149,7 @@ Each tool: one `.ts` file + one `.test.ts` file, following the caldav-mcp patter
 
 - **npm**: `npx luma-mcp` — semantic-release on merge to main
 - **MCP Registry**: auto-publish via workflow on GitHub release
-- **Repo**: `github.com/bettervibe-org/luma-mcp` (public, MIT)
+- **Repo**: `github.com/unvibe-org/luma-mcp` (public, MIT)
 
 ## Verification
 
