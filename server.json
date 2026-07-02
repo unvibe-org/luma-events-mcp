@@ -1,9 +1,9 @@
 {
 	"$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-	"name": "io.github.bettervibe-org/luma-events-mcp",
+	"name": "io.github.unvibe-org/luma-events-mcp",
 	"description": "Luma Calendar event, guest, and ticket operations as MCP tools.",
 	"repository": {
-		"url": "https://github.com/bettervibe-org/luma-events-mcp",
+		"url": "https://github.com/unvibe-org/luma-events-mcp",
 		"source": "github"
 	},
 	"version": "0.1.0",
