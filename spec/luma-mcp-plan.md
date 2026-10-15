@@ -125,7 +125,7 @@ Each tool: one `.ts` file + one `.test.ts` file, following the caldav-mcp patter
 - `scripts/gen-tool-docs.ts` — imports all `*Definition` objects, renders markdown between `<!-- TOOLS:START -->` / `<!-- TOOLS:END -->`
 - `scripts/smoke.ts` — spawns server via `StdioClientTransport`, calls tools against real or mock API
 - `README.md` — badges, features, setup config, auto-generated tool docs, license
-- `CLAUDE.md` — tech stack, layout, workflow instructions
+- `AGENTS.md` — tech stack, layout, workflow instructions
 
 ### Step 6: Phase 2 tools (write operations)
 
